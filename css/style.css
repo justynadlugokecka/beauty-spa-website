@@ -112,7 +112,23 @@ body {
 }
 
 .header-navigation {
-  height: 100px;
   width: 100%;
-  background-color: green;
+	background-color: pink;
+}
+
+.header-navigation-item {
+	display: inline-block;
+}
+
+.header-navigation-item a {
+	text-decoration: none;
+	padding: 15px 10px 15px 10px;
+	color: black;
+	display: inline-block;
+}
+
+.header-navigation-item a:hover {
+	background-color: black;
+	color: pink;
+	font-weight: bold;
 }
