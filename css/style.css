@@ -162,16 +162,15 @@ body {
 	/* background-color: green; */
 	width: 75%;
 	float: right;
-	padding-bottom: 40px;
+	/* padding-bottom: 40px; */
 }
 
 .content-people-person-left-foto {
 	height: 200px;
 	width: 200px;
 	margin: auto;
-	text-align: center;
-  /* margin: auto; */
-  margin: 0px;
+	/* text-align: center; */
+  /* margin: 0px; */
   position: relative;
   top: 50%;
   left: 50%;
@@ -186,4 +185,9 @@ h2 {
 
 .content-people-person {
 	/* padding-bottom: 40px; */
+	display: inline-block;
+  padding-bottom: 40px;
+	background-color: red;
+	margin-bottom:20px;
+	position: relative;
 }
