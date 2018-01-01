@@ -148,13 +148,11 @@ body {
 }
 
 .content-people-person-left {
-	height: 100%;
+	/* height: 100%; */
 	/* background-color: black; */
 	width: 25%;
 	position: relative;
 	float: left;
-
-
 }
 
 .content-people-person-right {
@@ -163,18 +161,21 @@ body {
 	width: 75%;
 	float: right;
 	/* padding-bottom: 40px; */
+	position: relative;
+
 }
 
 .content-people-person-left-foto {
-	height: 200px;
-	width: 200px;
+	height: 70%;
+	width: 70%;
 	margin: auto;
-	/* text-align: center; */
+	text-align: center;
+  /* margin: auto; */
   /* margin: 0px; */
   position: relative;
   top: 50%;
   left: 50%;
-  transform: translate(-50%);
+  transform: translate(-50%, 5%);
 }
 
 h2 {
@@ -188,6 +189,4 @@ h2 {
 	display: inline-block;
   padding-bottom: 40px;
 	background-color: red;
-	margin-bottom:20px;
-	position: relative;
 }
