@@ -73,9 +73,6 @@ body {
 
 .footer {
   display: block;
-  height: 100px;
-  width: 100%;
-  background-color: white;
 }
 
 .header-social {
@@ -185,4 +182,12 @@ h2 {
 .content-people-person {
 	display: inline-block;
   padding-bottom: 40px;
+}
+
+.footer-logotype {
+	width: 1200px;
+  height: 100px;
+	background-color: blue;
+	margin: 10px;
+
 }
