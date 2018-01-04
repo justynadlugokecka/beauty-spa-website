@@ -73,6 +73,12 @@ body {
 
 .footer {
   display: block;
+	height: 100%;
+	background-color: white;
+	text-align: center;
+	font-size: 12px;
+	padding-top: 1%;
+	padding-bottom: 1%;
 }
 
 .header-social {
@@ -178,16 +184,35 @@ h2 {
 	font-size: 20px;
 	padding-bottom: 10px;
 }
-
 .content-people-person {
 	display: inline-block;
   padding-bottom: 40px;
 }
 
-.footer-logotype {
-	width: 1200px;
-  height: 100px;
-	background-color: blue;
-	margin: 10px;
+.logotypes {
+	height: 100%;
+	background-color: white;
+	padding-top: 30px;
+}
 
+.logotypes-partners {
+ height: 100%;
+ text-align: center;
+}
+
+.logotypes-gift-cards {
+ height: 100%
+}
+
+.logotypes-partners-link {
+	float: left;
+	height: 90px;
+	padding-left: 10%;
+}
+.logotypes-partners-one {
+	text-align: center;
+}
+
+.logotypes-gift-cards {
+	padding-top: 7%;
 }
