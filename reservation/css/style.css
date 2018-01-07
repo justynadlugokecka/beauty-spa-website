@@ -56,22 +56,22 @@ body {
 }
 
 .header {
-  background-color: red;
-  height: 100px;
+  background-color: black;
+  height: 170px;
   width: 100%;
+	margin-bottom: 0px;
 }
 
 h1 {
-  background-color: yellow;
-  height: 40px;
-  width: 100%;
+
+  font-size: 20px;
+  padding: 1% 0%;
 }
 
 .side-navigation {
-  background-color: green;
   width: 25%;
-  height: 400px;
   float: left;
+
 
 }
 
@@ -80,11 +80,84 @@ h1 {
   width: 75%;
   height: 400px;
   float: right;
+	position: relative;
 }
 
 .footer {
-  background-color: black;
+  background-color: red;
   width: 100%;
   height: 80px;
   clear: both;
+}
+
+.logo-jasmine {
+	height: 40%;
+	padding: 30px 0px 30px 90px;
+  width: 15%;
+}
+
+.button-login {
+	background-color: white;
+	width: 150px;
+  height: 40px;
+  float: right;
+  margin: 40px 100px 0px 90px;
+	border-radius: 30px;
+
+}
+.button-login:hover {
+	background-color: grey;
+}
+
+.button-login-text {
+  text-align: center;
+  transform: translate( 0%, 80%);
+}
+
+.header-navigation {
+	height: 23%;
+	background-color: grey;
+	text-align: center;
+}
+
+.header-navigation-item {
+	display: inline;
+}
+
+.header-navigation-item a {
+	text-decoration: none;
+	padding: 13px;
+	color: black;
+	display: inline-block;
+
+}
+.header-navigation-item a:hover {
+	background-color: white;
+	color: black ;
+	font-weight: bold;
+	border-bottom: solid 1px black;
+}
+
+ .side-navigation-header {
+	 font-size: 16px;
+	 color: black;
+	 background-color: #BCC4CC;
+	 /* text-align: center; */
+	 padding-top: 10px;
+	 padding-bottom: 10px;
+	 padding-left: 25px;
+	 width: 280px;
+	 /* margin-left: 60px; */
+ }
+
+.side-navigation-item {
+	/* padding-left: 20px; */
+
+}
+
+.side-navigation-item a {
+	text-decoration: none;
+	color: black;
+	display: block;
+	padding: 10px 0px 10px 25px;
 }
