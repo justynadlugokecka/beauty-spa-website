@@ -107,6 +107,7 @@ h1 {
 }
 .button-login:hover {
 	background-color: grey;
+	font-weight: bold;
 }
 
 .button-login-text {
@@ -145,14 +146,12 @@ h1 {
 	 /* text-align: center; */
 	 padding-top: 10px;
 	 padding-bottom: 10px;
-	 padding-left: 25px;
+	 /* padding-left: 25px; */
 	 width: 280px;
-	 /* margin-left: 60px; */
  }
 
 .side-navigation-item {
-	/* padding-left: 20px; */
-
+	font-size: 13px;
 }
 
 .side-navigation-item a {
@@ -160,4 +159,19 @@ h1 {
 	color: black;
 	display: block;
 	padding: 10px 0px 10px 25px;
+
+}
+
+.side-navigation-item a:hover {
+ text-decoration: underline;
+}
+
+.side-navigation {
+	border: solid 1px black;
+	width: 280px;
+}
+
+.side-navigation-header-headline {
+	padding-left: 25px;
+
 }
