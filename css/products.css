@@ -178,8 +178,38 @@ h1 {
 
 .content-product-box {
 	width: 23%;
-	height: 300px;
+	height: auto;
 	background-color: pink;
 	margin: 5%;
 	display:inline-block;
+}
+
+.content-product-box-photo {
+	width: 100%;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.content-product-box-product-name {
+	margin-bottom: 10px;
+	margin-left: 9px;
+}
+.content-product-box a {
+  font-size: 15px;
+	text-decoration: none;
+	color: gray;
+	align: right;
+	margin-bottom: 10px;
+	letter-spacing: 1px;
+	line-height: 25px;
+}
+
+.content-product-box-product-price {
+	height: auto;
+	margin-left: 9px;
+}
+
+.content-product-box-product-price {
+	font-size: 18px;
+	color: gray;
 }
