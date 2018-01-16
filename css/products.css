@@ -247,10 +247,11 @@ h1 {
 }
 .footer-navigation {
 	height: 90px;
-	width: 30%;
+	width: 20%;
 	background-color: black;
 	display: inline-block;
 	text-align: center;
+	margin-bottom: 10px;
 
 
 }
@@ -276,14 +277,22 @@ h1 {
 }
 
 .footer-navigation-item {
-	font-size: 17px;
+	font-size: 15px;
 	color: #9C9792;
   display: block;
 	line-height: 22px;
 }
  .footer-navigation-list {
-	 position: absolute;
 	 display: inline-block;
 	 text-align: center;
 	 padding-top: 15px;
  }
+
+.footer-navigation-list a {
+   text-decoration: none;
+	 color: gray;
+}
+
+.footer-navigation-list a:hover {
+	text-decoration:underline;
+}
