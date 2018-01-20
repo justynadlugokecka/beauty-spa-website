@@ -216,3 +216,73 @@ h2 {
 .logotypes-gift-cards {
 	padding-top: 7%;
 }
+
+.content-contact-detail {
+	display: inline-block;
+	height: 400px;
+	width: 40%;
+	/* background-color: green; */
+	text-align: center;
+	/* position:absolute; */
+	margin-top: 45px;
+	padding-top: 20px;
+	margin-left: 20px;
+}
+
+.content-form {
+	display: inline-block;
+	height: 400px;
+	width: 58%;
+	/* background-color: red; */
+	position: relative;
+	float: right;
+	margin-top: 45px;
+	padding-top: 20px;
+
+}
+
+.content-map {
+	display: block;
+	height: 500px;
+	width: 100%;
+	/* background-color: pink; */
+	margin-bottom: 15px;
+}
+
+.content-contact-detail-headline {
+	font-weight: bold;
+	line-height: 32px;
+}
+
+.content-contact-detail-text {
+	line-height: 28px;
+}
+
+.content-form-headline {
+	font-weight: bold;
+	line-height: 32px;
+	margin-left: 31%
+
+}
+
+.content-form-detail {
+	text-align: center;
+	margin-right: 40px;
+
+}
+
+.content-map {
+  text-align: center;
+}
+
+.content-form-details {
+	width: 350px;
+  margin-top: 2px;
+	margin-bottom: 5px;
+}
+
+.content-form-detail-textarea {
+	width: 250px;
+	height: 80px;
+	margin-top: 15px;
+}
